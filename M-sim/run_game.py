@@ -1,8 +1,7 @@
 # This script runs an mtg game.
 
-class MTGCard():
-    def __init__(self, oid=None):
-        self.oid=oid
+from objects import GameCard, GameSpell, GamePerm, Deck, Player, Game
+
 class GameCard():
     # An mtg card in play, in hand/library/graveyard,...
 
@@ -13,7 +12,7 @@ class GamePerm():
     # A single permanent in play.
 
 class Deck():
-    # A collection of MTGCards
+    # A collection of GameCards
     def __init__(self, cards=[1,1,1,1,1,1,1,1,0,0]):
         pass
 
