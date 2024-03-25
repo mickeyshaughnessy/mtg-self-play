@@ -16,7 +16,7 @@ Here's the game transcript so far: %s
 
 Here's the current game state: %s
 
-The possible actions are: %s
+The possible actions are:
 """
 
 p_decide_game_action = """
